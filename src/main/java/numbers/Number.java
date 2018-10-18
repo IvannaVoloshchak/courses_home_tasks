@@ -3,9 +3,10 @@ package numbers;
 import java.util.Objects;
 
 public class Number {
-   public int i;
+    public int i;
 
     public Number(int i) {
+
         this.i = i;
     }
 
@@ -27,7 +28,7 @@ public class Number {
         return new Number(mult);
     }
 
-    Number division(Number number) {
+    public Number division(Number number) {
         int div = i / number.i;
         return new Number(div);
     }
@@ -37,7 +38,7 @@ public class Number {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Number number = (Number) o;
-       if (i!=number.i) return false;
+        if (i != number.i) return false;
         return i == number.i;
     }
 
