@@ -2,8 +2,8 @@ package numbers;
 
 public class RunProgram {
     public static void main(String[] args) {
-        SimpleFraction simpleFraction1 = new SimpleFraction(1, 6);
-        SimpleFraction simpleFraction2 = new SimpleFraction(1, 6);
+        SimpleFraction simpleFraction1 = new SimpleFraction(1, 3);
+        SimpleFraction simpleFraction2 = new SimpleFraction(1, 4);
 
         SimpleFraction plusResult = simpleFraction1.add(simpleFraction2);
         System.out.print(simpleFraction1 + " + " + simpleFraction2 + " = ");
