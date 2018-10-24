@@ -1,4 +1,4 @@
-package inner_nested_classes.Task1;
+package inner_nested_classes.task1;
 
 public interface IEngine {
     boolean turnOn();

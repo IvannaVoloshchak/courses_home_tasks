@@ -1,4 +1,4 @@
-package inner_nested_classes.Task2_4;
+package inner_nested_classes.task2_4;
 
 public class Number {
 
