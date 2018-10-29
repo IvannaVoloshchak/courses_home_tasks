@@ -26,7 +26,7 @@ public class Number {
     public void getAnonymousClass() {
         new Number() {
             public void methodName() {
-                System.out.println("This is my Anonymous class");
+                System.out.println("This is my Anonymous  class");
             }
         }.methodName();
     }
