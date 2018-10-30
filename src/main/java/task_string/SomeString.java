@@ -1,6 +1,4 @@
 package task_string;
-
-
 import java.util.HashMap;
 
 public class SomeString {

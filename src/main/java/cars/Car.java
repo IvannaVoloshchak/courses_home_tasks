@@ -10,7 +10,7 @@ public class Car {
     private double price;
     private String registrationNumber;
 
-    Car(Brand brand, String model, int year, Color color, double price, String registrationNumber) {
+   public Car(Brand brand, String model, int year, Color color, double price, String registrationNumber) {
         nextUniqueId++;
         id = nextUniqueId;
         this.brand = brand;
