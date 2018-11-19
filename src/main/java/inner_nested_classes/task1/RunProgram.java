@@ -11,5 +11,7 @@ class RunProgram {
         airPlaneEngins.add(airplaneEngin1);
         var airplane = new Airplane(airPlaneEngins);
         System.out.println(airplane);
+        Airplane.AirPlaneEngine airPlaneEngine = airplane.new AirPlaneEngine(2,Fuel.DISEL, 3);
+        System.out.println(airPlaneEngine);
     }
 }
